@@ -2,7 +2,7 @@
 """creates a basemodel class"""
 import uuid
 from datetime import datetime
-from models import storage
+import models
 
 
 class BaseModel:
@@ -22,7 +22,7 @@ class BaseModel:
                 elif key != '__class__':
                     setattr(self, key, value)
 
-        storage.new(self)
+        models.storage.new(self)
 
     def __str__(self):
         """the string representation"""
@@ -32,7 +32,7 @@ class BaseModel:
     def save(self):
         """updates the public instance attribute updated_at"""
         self.updated_at = datetime.now()
-        storage.save()
+        models.storage.save()
 
     def to_dict(self):
         """ returns a dict representation"""
