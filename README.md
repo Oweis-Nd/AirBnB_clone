@@ -1,6 +1,6 @@
-AirBnB clone - The console
+AIRBNB CLONE - THE CONSOLE
 
-AirBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
+The AirBnB Clone is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
@@ -22,6 +22,7 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 $
 
+
 Non-Interactive Mode
 
 $ echo "help" | ./console.py
@@ -40,7 +41,7 @@ Documented commands (type help <topic>):
 ========================================
 EOF  all  create  destroy  help  quit  show  update
 (hbnb)
-$
+$ 
 
 The following commands are used for storage management and how to use them.
 1. help - Shows all allowed commands or gives information about a specific command.
