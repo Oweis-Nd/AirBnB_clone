@@ -48,3 +48,11 @@ The following commands are used for storage management and how to use them.
 2. quit or EOF - Exits the program
 
 3. create - Creates a new instance.
+
+4. show - Shows a specific instance by its classname and its id.
+
+5. all - Displays all stored instances or all stored instances of a specific class by its classname.
+
+6. update - Updates an instance (adds or modifies attributes) by its classname, id, attribute and its value to add/modify.
+
+7. destroy - Deletes an instance by its classname and its id
